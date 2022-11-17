@@ -10,3 +10,6 @@ Beispiele: "**Hallo Welt!**" und drücken Sie die Eingabetaste.
 
 ![image](https://user-images.githubusercontent.com/106658693/202490642-043de0f2-1422-4c79-bcdb-a4d459c747a1.png) oder ![image](https://user-images.githubusercontent.com/106658693/202491045-8bd8232d-c80c-44ce-8496-24aa5647eb55.png)
 
+
+Mit Hilfe dieser Online-Konverter-Website können Sie jedes Foto in das ASCII-Format konvertieren. Kopieren Sie es dann fügen Sie es anstelle des ASCII-Fotos in den Code ein.
+https://manytools.org/hacker-tools/convert-images-to-ascii-art/
