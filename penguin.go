@@ -1,29 +1,24 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
 	"os"
 	"strings"
 )
 
 const (
-	COUNT_PER_LINE int = 2
+	Count int = 2
 )
 
 func main() {
 
-	fmt.Printf("pinguinsay ")
-
-	in := bufio.NewReader(os.Stdin)
-
-	text, _ := in.ReadString('\n')
+	text := os.Args[1]
 
 	text = strings.ReplaceAll(text, "\n", "")
 
 	words := strings.Split(text, " ")
 
-	var wordsWithLines [100][50]string
+	var wordsWithLines [100][2]string
 
 	var wordCount int
 	var lineCount int
@@ -32,7 +27,7 @@ func main() {
 
 		wordCount++
 
-		if wordCount == COUNT_PER_LINE {
+		if wordCount == Count {
 			lineCount++
 			wordCount = 0
 		}
@@ -50,8 +45,8 @@ func main() {
 
 	for i := 0; i < lineCount; i++ {
 		line := "     "
-		for j := 0; j < COUNT_PER_LINE; j++ {
-			if j == COUNT_PER_LINE-1 {
+		for j := 0; j < Count; j++ {
+			if j == Count-1 {
 				line += wordsWithLines[i][j] + ""
 			} else {
 				line += wordsWithLines[i][j] + " "
