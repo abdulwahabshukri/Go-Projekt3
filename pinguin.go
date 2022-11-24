@@ -70,9 +70,9 @@ func main() {
 }
 
 func printTux() {
-	tux := ` 
-		\           
-		 \       
+	tux := `
+		\
+		 \
 		    .---.
 		   |o_o  |
 		   |:_/  |
